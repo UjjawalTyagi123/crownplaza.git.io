@@ -1,0 +1,186 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+body{
+    background-color:rgb(230, 233, 177) ;
+
+}
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(
+      115deg,
+      rgba(158, 135, 58, 0.8),
+      rgba(136, 136, 206, 0.2)
+    ),
+      url(https://images.pexels.com/photos/2034335/pexels-photo-2034335.jpeg?cs=srgb&dl=pexels-konstantinos-eleftheriadis-2034335.jpg&fm=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+#background{
+    background-size: cover;
+    position: relative;
+ 
+   margin-left: 30%;
+ /* /* width: 100%; */
+   height: 300px;  
+    width: 600px;
+}
+
+#room_main{
+    float:left;
+    /* border-style: solid; */
+    padding: 2px;
+    width: 33%;
+    text-align: justify;
+    margin-top: 240px;
+    background-color: rgba(253, 244, 137, 0.25);   
+}
+#dining_main{
+    /* margin-left: 5px; */
+    float:left;
+    /* border-style: solid; */
+    padding: 2px;
+    width: 33%;
+    text-align: justify;
+    margin-top:240px ;
+    background-color: rgb(253,244,137,0.25);
+}
+#meetings_main{
+    /* margin-left: 5px; */
+    float:right;
+    /* border-style: solid; */
+    padding: 2px;
+    width: 33.2%;
+    text-align: justify;
+    margin-top:240px ;
+    background-color: rgba(253,244,137,0.25);
+}
+.name{
+text-align: center;
+font-style: italic;
+font-size: 60px;
+
+}
+.logo{
+    padding-left: 50px; 
+}
+.h2{
+    padding-left: 50px; 
+}
+
+.para{
+    width: 350px;
+    padding-left: 50px;
+    font-size: 19px;
+}
+#mlogo{
+    color: red;
+ }
+#dlogo{
+    color: red;
+ }
+#rlogo{
+   color: red;
+   font-size: 35px;
+   padding-left: 50px;
+}
+.link_more{
+    padding-left: 50px;
+    color:rgb(168, 71, 6);
+}
+.button1{
+    cursor: pointer;
+    margin-left: 0px;
+    font-size: 20px;
+   border-style: solid;
+   border-width: 5px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-color: rgb(246, 248, 212);
+    padding: 5px;
+    border-color: rgb(196, 196, 193);
+}
+.button{
+    cursor: pointer;
+  margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border-width: 5px;
+    border-style: solid;
+    background-color: rgba(221, 147, 49,0.2);
+    padding: 5px;
+    margin-top:  20px; 
+    border-color: rgba(7, 6, 4, 1);
+} 
+
+
+.button_m{
+   
+        cursor: pointer;
+        font-size: 20px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        border-width: 5px;
+        border-style: solid;
+        background-color: rgb(236, 236, 226);
+        padding: 5px;
+        margin-top:  20px; 
+        border-color: rgb(196, 196, 193);
+    
+}
+/* #button2{
+        float:right;
+        cursor: pointer;
+        margin-left: 0px;
+        font-size: 20px;
+       border-style: solid;
+       border-width: 4px;
+        margin-bottom: 10px;
+      margin-top: 5px;
+      margin-right: 5px;
+        background-color: rgb(246, 248, 212);
+        padding: 5px;
+        border-color: rgb(196, 196, 193);
+    
+} */
+#meeting_body{
+    background-color: white;
+}
+#meeting_main{
+   
+    height: 180px;
+}
+#meeting_blue{
+    background-color: rgb(248, 245, 245);
+    width: auto;
+    height: 150px;
+    padding-left: 80px;
+   padding-top: 30px;
+}
+#div1{
+    float: left;
+    text-align: justify;
+}
+#div2{
+    float:right;
+}
+#end{
+    float: left;
+}
+
+#room_body{
+    background-color: rgb(247, 250, 231);
+}
